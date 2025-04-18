@@ -1,0 +1,19 @@
+div#body {
+  padding: 10px;
+  margin-bottom: 10px;
+  text-indent: 7%;
+  font-size: 200%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+               'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: solid 3px black;
+  background-color: yellow;
+}
+
+#heading h1 {
+  width: 100%;
+  font-size: 300%;
+  font-family: cursive;
+  text-align: center;
+  background-color: rgb(108, 74, 230);
+  border: solid 3px black;
+}

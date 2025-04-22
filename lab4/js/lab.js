@@ -1,21 +1,48 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Rock-Paper-Scissors Game - pseudocode
+// Author: Nirvana Alcaraz
+// Date: April 22, 2025
 
-// Constants
+// Display game instructions
+    // Briefly explain how to play and the rules
 
-// Functions
+// Initialize game
+    // Set initial variables (e.g., score, number of rounds)
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+// Start game loop
+    // Repeat for a set number of rounds or until player chooses to quit
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+// Get player input
+    // Prompt user to choose rock, paper, or scissors
+    // Validate input (must be one of the three choices)
 
-// let's get this party started
-main();
+// Generate computer choice
+    // Randomly pick rock, paper, or scissors
+
+// Compare choices to determine winner
+    // Rock beats scissors
+    // Scissors beats paper
+    // Paper beats rock
+    // If same choice, it's a tie
+
+// Display round result
+    // Show both choices
+    // Announce the winner or if it’s a tie
+
+// Update score
+    // Add win/loss/tie to score tracking
+
+// Ask if player wants to play again
+    // If yes, repeat from Get player input
+    // If no, proceed to end game
+
+// Display final result
+    // Show total wins, losses, and ties
+    // Thank the player for playing
+
+    function main() {
+      console.log("Main function started.");
+      // the code that makes everything happen
+    }
+    
+    // let's get this party started
+    main();

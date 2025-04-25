@@ -1,21 +1,23 @@
-// index.js - purpose and description here
+// lab.js - Transportation Info Script
 // Author: Your Name
-// Date:
+// Date: 2025-04-24
 
-// Constants
+// Variables
+var make = "Toyota";
+var model = "Camry";
+var color = "Blue";
+var year = 2015;
+var ownIt = true;
 
-// Functions
+// Calculate the age of the vehicle
+var currentYear = new Date().getFullYear();
+var age = currentYear - year;
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+// Output
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Do I own it? " + ownIt + "<br>");
+document.writeln("Age: " + age + "<br>");
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();

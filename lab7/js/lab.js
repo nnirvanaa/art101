@@ -1,19 +1,25 @@
-// index.js - Lab 7: Functions
-// Author: Your Name
-// Date: Today's Date
+// lab.js - Remix: Sorting name letters with personality
+// Author: Nirvana Alcaraz
+// Date: 2025-05-04
 
-// Function to sort the letters of a name
-function sortUserName() {
-  var userName = window.prompt("Please enter your name:");
-  console.log("User Name:", userName);
-  // Split the name into an array of characters, sort them, and join back into a string
-  var nameArray = userName.split('');
-  var nameArraySort = nameArray.sort();
-  var nameSorted = nameArraySort.join('');
-  console.log("Sorted Name:", nameSorted);
-  return nameSorted;
+function remixNameSort() {
+  const input = window.prompt("Yo! Type your name and let’s shuffle it:");
+
+  console.log("Original input:", input);
+
+  if (!input) {
+    console.log("Oops, nothing entered.");
+    document.getElementById("display").innerHTML = "You didn’t enter anything 😬";
+    return;
+  }
+
+  const letters = input.split('');
+  const remix = letters.sort().join('');
+
+  console.log("Sorted name:", remix);
+
+  document.getElementById("display").innerHTML = `🔥 Your remixed name is: <strong>${remix}</strong>`;
 }
 
-// Output
-document.writeln("Here's your sorted name: ",
-  sortUserName(), "</br>");
+// Auto-run on load
+remixNameSort();

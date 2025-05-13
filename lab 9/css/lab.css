@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #4a148c;
+  }
+  
+  #Challenge, #Problems, #Results {
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    background-color: white;
+  }
+  
+  /* Special class */
+  .special {
+    background-color: lightseagreen;
+    border: dotted 50px wheat;
+    color: cornflowerblue;
+    font-weight: bold;
+  }
+  

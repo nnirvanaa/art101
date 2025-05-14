@@ -14,12 +14,28 @@ body {
     margin: 15px 0;
     border-radius: 10px;
     background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
   }
   
-  /* Special class */
+  button {
+    padding: 8px 14px;
+    margin-top: 10px;
+    border: 1px solid #999;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    border-color: #4a148c;
+    color: #4a148c;
+  }
+  
+  /* Style toggled on click */
   .special {
     background-color: lightseagreen;
-    border: dotted 50px wheat;
+    border: dotted 5px wheat;
     color: cornflowerblue;
     font-weight: bold;
   }

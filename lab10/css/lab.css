@@ -1,0 +1,60 @@
+/* General body styling */
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 30px;
+    line-height: 1.6;
+  }
+  
+  /* Headings */
+  h1, h2 {
+    color: #222;
+    margin-bottom: 10px;
+  }
+  
+  /* Section spacing */
+  #challenge, #problems, #results {
+    margin-bottom: 25px;
+    padding: 15px;
+    border-left: 5px solid #999;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Output bubble styling */
+  #output p {
+    display: inline-block;
+    max-width: 60%;
+    margin: 5px 0;
+    padding: 8px 14px;
+    border-radius: 15px;
+    background-color: darkgray;
+    color: white;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    transition: background-color 0.3s;
+  }
+  
+  /* Matching button styling */
+  button#make-convo,
+  button#toggle-screenshots,
+  .styled-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #555;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-right: 10px;
+  }
+  
+  button#make-convo:hover,
+  button#toggle-screenshots:hover,
+  .styled-button:hover {
+    background-color: #333;
+  }
+  

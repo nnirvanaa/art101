@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lab 10 - JavaScript for the Web</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS Styles -->
+  <link rel="stylesheet" type="text/css" href="../css/site.css">
+  <link rel="stylesheet" type="text/css" href="css/lab.css">
+
+  <!-- jQuery and JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="js/lab.js" defer></script>
+</head>
+
+<body>
+  <h1>Lab 10 - JavaScript for the Web</h1>
+
+  <div id="challenge">
+    <h2>Challenge</h2>
+    <p>This lab used jQuery to add interaction to a webpage. The goal was to create a button that shows new content with each click. It also helped practice using event listeners.</p>
+  </div>
+
+  <div id="problems">
+    <h2>Problems</h2>
+    <p>There were issues with file paths and making sure the script loaded correctly. Getting the button to reset the content also took some trial and error.</p>
+  </div>
+
+  <div id="results">
+    <h2>Results</h2>
+    <p>The button shows one line of a poem at a time, and resets when finished. The jQuery works as expected and the layout looks clean with custom styling.</p>
+    
+    <!-- Poem Output -->
+    <div id="output"></div>
+    <button id="make-convo">Click Me</button>
+
+    <!-- Screenshot Toggle Section -->
+    <button id="toggle-screenshots">Show Lab Screenshots</button>
+    <div id="screenshots" style="display: none; margin-top: 20px;">
+      <p><strong>HTML Code Screenshot:</strong></p>
+      <img src="img/lab10-screenshot1.jpg" alt="HTML Code Screenshot" width="600"><br><br>
+
+      <p><strong>JavaScript Code Screenshot:</strong></p>
+      <img src="img/lab10-screenshot2.jpg" alt="JavaScript Code Screenshot" width="600"><br><br>
+
+      <p><strong>Live Website Screenshot:</strong></p>
+      <img src="img/lab10-screenshot3.jpg" alt="Lab 10 Website Screenshot" width="600">
+    </div>
+  </div>
+
+  <script>
+    // Screenshot toggle functionality
+    $(document).ready(function () {
+      $("#toggle-screenshots").click(function () {
+        $("#screenshots").toggle();
+      });
+    });
+  </script>
+
+</body>
+</html>
+

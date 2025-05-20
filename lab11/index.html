@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lab 10 - jQuery Interaction</title>
+
+  <!-- Load jQuery -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <!-- Link to JavaScript -->
+  <script src="js/lab.js" defer></script>
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="cs/lab.css">
+</head>
+
+<body>
+  <h1>Lab 10 - jQuery Interaction</h1>
+
+  <div id="challenge">
+    <h2>Challenge</h2>
+    <p>The goal of this lab is to use jQuery to create a simple interactive webpage. The main task is to take input from a user and display a response using JavaScript. This builds a better understanding of how jQuery can interact with HTML elements dynamically.</p>
+  </div>
+
+  <div id="problems">
+    <h2>Problems</h2>
+    <p>Some difficulty came from making sure the jQuery library was linked correctly and that JavaScript only ran after the page loaded. There were also small issues with making sure the output displayed in the right place. These were fixed by checking file paths and using proper selectors in jQuery.</p>
+  </div>
+
+  <div id="results">
+    <h2>Results</h2>
+    <p>The page takes user input and displays a message using jQuery. Typing a name and clicking the button shows the name sorted in alphabetical order. This confirms the button, input field, and script are all connected and working as expected.</p>
+
+    <input type="text" id="user-name" placeholder="Input your name">
+    <div id="output"></div>
+    <button id="submit">Submit</button>
+  </div>
+</body>
+</html>
+
+

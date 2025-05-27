@@ -1,0 +1,49 @@
+/* lab.css - Styling for Lab 13 */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+  }
+  
+  h1, h2 {
+    color: #004d66;
+  }
+  
+  #challenge, #problems, #results {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+  
+  #output {
+    background-color: #eef6ff;
+    padding: 15px;
+    border: 1px dashed #90caf9;
+    margin-top: 15px;
+    border-radius: 8px;
+    font-family: monospace;
+    white-space: pre-line;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1565c0;
+  }
+  

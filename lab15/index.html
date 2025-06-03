@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lab 15 - Random Dog Generator with jQuery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="cs/lab.css"> <!-- (your folder is named 'cs') -->
+
+  <!-- jQuery Library -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- JavaScript -->
+  <script src="js/lab.js" defer></script> 
+</head>
+<body>
+
+  <h1>Lab 15 - Experimenting with jQuery and AJAX</h1>
+
+  <div id="challenge">
+    <h2>Challenge</h2>
+    <p>This lab explored how to use jQuery in combination with AJAX and DOM manipulation. Instead of calling a public API, this version randomly selects and displays a local image from a predefined list using jQuery.</p>
+  </div>
+
+  <div id="problems">
+    <h2>Problems</h2>
+    <p>The challenge was learning how to use jQuery to select elements, handle button clicks, and dynamically change an image on the page. It also involved setting up the file structure properly so local images loaded correctly.</p>
+  </div>
+
+  <div id="results">
+    <h2>Results</h2>
+    <p>The result is an interactive page where the user can click a button and see one of four random dog images displayed from a local folder using JavaScript and jQuery.</p>
+
+    <p><strong>Click the button to reveal a dog:</strong></p>
+    <button id="show-dog">Click for a Dog</button>
+
+    <br><br>
+    <img id="dog-image" src="" alt="Your dog will appear here" style="max-width: 400px; display: none; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.3);">
+  </div>
+
+</body>
+</html>
+
+
